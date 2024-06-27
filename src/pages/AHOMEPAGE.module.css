@@ -1,4 +1,4 @@
-.cloudsecurityalliancecsa-icon {
+.cloudsecurityalliancecsaIcon {
   width: 1929.9px;
   height: 278.4px;
   position: absolute;
@@ -6,7 +6,7 @@
   right: -9.9px;
   bottom: 0;
 }
-.a-home-page,
+.aHomePage,
 .content {
   display: flex;
   box-sizing: border-box;
@@ -19,7 +19,7 @@
   padding: 0 var(--padding-xl);
   max-width: 100%;
 }
-.a-home-page {
+.aHomePage {
   width: 100%;
   position: relative;
   background-color: var(--color-white);
@@ -33,12 +33,12 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 1050px) {
-  .a-home-page {
+  .aHomePage {
     gap: 80px;
   }
 }
 @media screen and (max-width: 750px) {
-  .a-home-page {
+  .aHomePage {
     gap: 40px;
   }
 }

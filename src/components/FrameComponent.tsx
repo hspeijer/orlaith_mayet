@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent.css";
+import styles from "./FrameComponent.module.css";
 
 export type FrameComponentType = {
   className?: string;
@@ -9,37 +9,46 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
   className = "",
 }) => {
   return (
-    <section className={`slider-content-parent ${className}`}>
-      <div className="slider-content">
-        <div className="slider-imiges">
-          <div className="image-slider-map">
-            <div className="wrapper">
-              <img className="icon" loading="lazy" alt="" src="/1@2x.png" />
-            </div>
-            <div className="frame-container">
-              <img className="frame-child" alt="" src="/frame-243@2x.png" />
+    <section className={[styles.sliderContentParent, className].join(" ")}>
+      <div className={styles.sliderContent}>
+        <div className={styles.sliderImiges}>
+          <div className={styles.imageSliderMap}>
+            <div className={styles.wrapper}>
               <img
-                className="frame-item"
+                className={styles.icon}
+                loading="lazy"
+                alt=""
+                src="/1@2x.png"
+              />
+            </div>
+            <div className={styles.frameParent}>
+              <img
+                className={styles.frameChild}
+                alt=""
+                src="/frame-243@2x.png"
+              />
+              <img
+                className={styles.frameItem}
                 loading="lazy"
                 alt=""
                 src="/frame-244@2x.png"
               />
             </div>
             <img
-              className="image-slider-map-child"
+              className={styles.imageSliderMapChild}
               loading="lazy"
               alt=""
               src="/frame-245@2x.png"
             />
             <img
-              className="image-slider-map-item"
+              className={styles.imageSliderMapItem}
               loading="lazy"
               alt=""
               src="/frame-246@2x.png"
             />
           </div>
-          <div className="project-description">
-            <div className="i-started-this">
+          <div className={styles.projectDescription}>
+            <div className={styles.iStartedThis}>
               I started this map after the project “No Matter” (see
               Work/Projects), in order to share my tips to find materials,
               sometimes in the street, on construction sites, in the “free”
@@ -49,14 +58,14 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
               locations, in order to get the material you have to enquire
               directly on site.
             </div>
-            <div className="waste-statistics">
-              <div className="tons-of-waste-container">
-                <p className="p">236,281,118</p>
-                <p className="tons-of-waste">Tons of waste dumped</p>
-                <p className="globally-this-year">globally, this year</p>
-                <p className="the-world-counts">
+            <div className={styles.wasteStatistics}>
+              <div className={styles.tonsOfWasteContainer}>
+                <p className={styles.p}>236,281,118</p>
+                <p className={styles.tonsOfWaste}>Tons of waste dumped</p>
+                <p className={styles.globallyThisYear}>globally, this year</p>
+                <p className={styles.theWorldCounts}>
                   <a
-                    className="the-world-counts1"
+                    className={styles.theWorldCounts1}
                     href="https://www.theworldcounts.com//challenges/waste/global-waste-problem"
                     target="_blank"
                   >
@@ -68,19 +77,19 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
           </div>
         </div>
       </div>
-      <div className="involvement-content-wrapper">
-        <div className="involvement-content">
-          <b className="how-to-be"> How to be involved? </b>
+      <div className={styles.involvementContentWrapper}>
+        <div className={styles.involvementContent}>
+          <b className={styles.howToBe}> How to be involved? </b>
         </div>
       </div>
-      <div className="construction-info-content-wrapper">
-        <div className="construction-info-content">
-          <div className="under-construction-via">
+      <div className={styles.constructionInfoContentWrapper}>
+        <div className={styles.constructionInfoContent}>
+          <div className={styles.underConstructionVia}>
             Under construction via openstreetmap
           </div>
-          <div className="work-in-progress-1-wrapper">
+          <div className={styles.workInProgress1Wrapper}>
             <img
-              className="work-in-progress-1-icon"
+              className={styles.workInProgress1Icon}
               loading="lazy"
               alt=""
               src="/workinprogress-1@2x.png"

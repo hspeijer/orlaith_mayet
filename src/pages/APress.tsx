@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import Header from "../components/Header1";
 import FrameComponent1 from "../components/FrameComponent1";
-import "./APress.css";
+import styles from "./APress.module.css";
 
 const APress: FunctionComponent = () => {
   return (
-    <div className="a-press">
+    <div className={styles.aPress}>
       <Header
         orlaithMayetAlignSelf="stretch"
         orlaithMayetPosition="unset"
@@ -13,29 +13,29 @@ const APress: FunctionComponent = () => {
         orlaithMayetLeft="unset"
         orlaithMayetWidth="unset"
       />
-      <div className="header">
-        <div className="work">
-          <b className="workprojects">Work/Projects</b>
+      <div className={styles.header}>
+        <div className={styles.work}>
+          <b className={styles.workprojects}>Work/Projects</b>
         </div>
-        <div className="map">
-          <b className="map1">Map</b>
+        <div className={styles.map}>
+          <b className={styles.map1}>Map</b>
         </div>
-        <div className="bio">
-          <b className="bio1">Bio</b>
+        <div className={styles.bio}>
+          <b className={styles.bio1}>Bio</b>
         </div>
-        <div className="press">
-          <b className="press1">Press</b>
+        <div className={styles.press}>
+          <b className={styles.press1}>Press</b>
         </div>
         <img
-          className="home-page-yellow-triangle-with"
+          className={styles.homePageYellowTriangleWith}
           alt=""
           src="/home-page-yellow-triangle-with-name-2@2x.png"
         />
       </div>
-      <section className="a-press-inner">
-        <div className="frame-parent">
-          <button className="exposition-wrapper">
-            <b className="exposition">Exposition</b>
+      <section className={styles.aPressInner}>
+        <div className={styles.frameParent}>
+          <button className={styles.expositionWrapper}>
+            <b className={styles.exposition}>Exposition</b>
           </button>
           <FrameComponent1 />
         </div>

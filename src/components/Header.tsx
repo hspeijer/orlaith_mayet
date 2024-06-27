@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 export type HeaderType = {
   className?: string;
@@ -7,24 +7,24 @@ export type HeaderType = {
 
 const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
   return (
-    <header className={`header2 ${className}`}>
-      <h1 className="orlaith-mayet">Orlaith Mayet</h1>
-      <nav className="navigation">
-        <nav className="navigation-column">
-          <div className="navigation-item">
-            <div className="work2">
-              <a className="workprojects2">Work/Projects</a>
+    <header className={[styles.header, className].join(" ")}>
+      <h1 className={styles.orlaithMayet}>Orlaith Mayet</h1>
+      <nav className={styles.navigation}>
+        <nav className={styles.navigationColumn}>
+          <div className={styles.navigationItem}>
+            <div className={styles.work}>
+              <a className={styles.workprojects}>Work/Projects</a>
             </div>
           </div>
-          <div className="map4">
-            <a className="map5">Map</a>
+          <div className={styles.map}>
+            <a className={styles.map1}>Map</a>
           </div>
-          <div className="bio4">
-            <a className="bio5">Bio</a>
+          <div className={styles.bio}>
+            <a className={styles.bio1}>Bio</a>
           </div>
-          <div className="press-item">
-            <div className="press4">
-              <a className="press5">Press</a>
+          <div className={styles.pressItem}>
+            <div className={styles.press}>
+              <a className={styles.press1}>Press</a>
             </div>
           </div>
         </nav>

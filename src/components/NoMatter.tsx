@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import "./NoMatter.css";
+import styles from "./NoMatter.module.css";
 
 export type NoMatterType = {
   className?: string;
@@ -23,11 +23,19 @@ const NoMatter: FunctionComponent<NoMatterType> = ({
   }, [propLeft]);
 
   return (
-    <div className={`no-matter ${className}`} style={noMatterStyle}>
-      <div className="work-projects-on-its-way1">
-        <img className="on-its-way-11" loading="lazy" alt="" src={onItsWay1} />
-        <div className="titel1">
-          <div className="no-matter1">{noMatter}</div>
+    <div
+      className={[styles.noMatter, className].join(" ")}
+      style={noMatterStyle}
+    >
+      <div className={styles.workProjectsOnItsWay}>
+        <img
+          className={styles.onItsWay1}
+          loading="lazy"
+          alt=""
+          src={onItsWay1}
+        />
+        <div className={styles.titel}>
+          <div className={styles.noMatter1}>{noMatter}</div>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.on-its-way-1 {
+.onItsWay1 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -12,35 +12,36 @@
   max-height: 100%;
   object-fit: cover;
 }
-.on-its-way1 {
+.onItsWay2 {
   width: 88px;
   position: relative;
   display: inline-block;
   min-width: 88px;
 }
+.titel,
+.workProjectsOnItsWay {
+  display: flex;
+  flex-direction: row;
+}
 .titel {
   border-radius: var(--br-mini) var(--br-mini) 0 var(--br-mini);
   background-color: var(--color-black);
-  display: flex;
-  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-lgi) var(--padding-19xl);
   white-space: nowrap;
   z-index: 1;
 }
-.work-projects-on-its-way {
+.workProjectsOnItsWay {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
-  display: flex;
-  flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end;
   position: relative;
   gap: var(--gap-3xs);
 }
-.on-its-way {
+.onItsWay {
   height: 280px;
   width: 280px;
   margin: 0 !important;

@@ -1,4 +1,4 @@
-.on-its-way-12 {
+.onItsWay1 {
   position: absolute;
   height: calc(100% - 0.2px);
   top: 0;
@@ -14,7 +14,7 @@
   display: inline-block;
   min-width: 50px;
 }
-.bver-wrapper {
+.bverWrapper {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -28,7 +28,7 @@
   padding: var(--padding-lgi) var(--padding-38xl);
   z-index: 1;
 }
-.work-projects-on-its-way2 {
+.workProjectsOnItsWay {
   height: 285px;
   flex: 1;
   position: relative;

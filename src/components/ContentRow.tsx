@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import ONItsWay from "./ONItsWay";
 import NoMatter from "./NoMatter";
 import Baver from "./Baver";
-import "./ContentRow.css";
+import styles from "./ContentRow.module.css";
 
 export type ContentRowType = {
   className?: string;
@@ -10,26 +10,26 @@ export type ContentRowType = {
 
 const ContentRow: FunctionComponent<ContentRowType> = ({ className = "" }) => {
   return (
-    <section className={`content-row ${className}`}>
-      <div className="projects-grid">
+    <section className={[styles.contentRow, className].join(" ")}>
+      <div className={styles.projectsGrid}>
         <ONItsWay onItsWay1="/2023-on-its-way-1@2x.png" onItsWay="On its way" />
         <ONItsWay
           onItsWay1="/2023-on-its-way-1-1@2x.png"
           onItsWay="Thesis: Human_Fallback"
           propLeft="349.5px"
         />
-        <div className="murphy">
-          <div className="work-projects-on-its-way3">
-            <div className="on-its-way-1-wrapper">
+        <div className={styles.murphy}>
+          <div className={styles.workProjectsOnItsWay}>
+            <div className={styles.onItsWay1Wrapper}>
               <img
-                className="on-its-way-13"
+                className={styles.onItsWay1}
                 loading="lazy"
                 alt=""
                 src="/2023-on-its-way-1-2@2x.png"
               />
             </div>
-            <div className="titel2">
-              <div className="drop-murphys-constant">
+            <div className={styles.titel}>
+              <div className={styles.dropMurphysConstant}>
                 Drop Murphy’s Constant
               </div>
             </div>
@@ -49,16 +49,16 @@ const ContentRow: FunctionComponent<ContentRowType> = ({ className = "" }) => {
           noMatter="In search of Noord"
           propLeft="694px"
         />
-        <div className="woodmanification">
-          <div className="work-projects-on-its-way4">
+        <div className={styles.woodmanification}>
+          <div className={styles.workProjectsOnItsWay1}>
             <img
-              className="on-its-way-14"
+              className={styles.onItsWay11}
               loading="lazy"
               alt=""
               src="/2023-on-its-way-1-6@2x.png"
             />
-            <div className="woodman-nification-wrapper">
-              <div className="woodman-nification">Woodmannification</div>
+            <div className={styles.woodmanNificationWrapper}>
+              <div className={styles.woodmanNification}>Woodmannification</div>
             </div>
           </div>
         </div>
@@ -69,29 +69,29 @@ const ContentRow: FunctionComponent<ContentRowType> = ({ className = "" }) => {
           propLeft="694px"
           propTop="589px"
         />
-        <div className="to-1">
-          <div className="work-projects-on-its-way5">
+        <div className={styles.to1}>
+          <div className={styles.workProjectsOnItsWay2}>
             <img
-              className="on-its-way-15"
+              className={styles.onItsWay12}
               loading="lazy"
               alt=""
               src="/2023-on-its-way-1-9@2x.png"
             />
-            <div className="to-1-in-an-imaginary-world-wrapper">
-              <div className="to-1-in">0 to 1 in an Imaginary World</div>
+            <div className={styles.to1InAnImaginaryWorldWrapper}>
+              <div className={styles.to1In}>0 to 1 in an Imaginary World</div>
             </div>
           </div>
         </div>
-        <div className="les-non-dits">
-          <div className="work-projects-on-its-way6">
+        <div className={styles.lesNonDits}>
+          <div className={styles.workProjectsOnItsWay3}>
             <img
-              className="on-its-way-16"
+              className={styles.onItsWay13}
               loading="lazy"
               alt=""
               src="/2023-on-its-way-1-10@2x.png"
             />
-            <div className="titel3">
-              <div className="les-non-dits1">Les Non-Dits</div>
+            <div className={styles.titel1}>
+              <div className={styles.lesNonDits1}>Les Non-Dits</div>
             </div>
           </div>
         </div>
@@ -101,69 +101,69 @@ const ContentRow: FunctionComponent<ContentRowType> = ({ className = "" }) => {
           propLeft="694px"
           propTop="886px"
         />
-        <div className="xyz">
-          <div className="work-projects-on-its-way7">
+        <div className={styles.xyz}>
+          <div className={styles.workProjectsOnItsWay4}>
             <img
-              className="on-its-way-17"
+              className={styles.onItsWay14}
               loading="lazy"
               alt=""
               src="/2023-on-its-way-1-12@2x.png"
             />
-            <div className="titel4">
-              <div className="xyzpov">xyzPOV</div>
+            <div className={styles.titel2}>
+              <div className={styles.xyzpov}>xyzPOV</div>
             </div>
           </div>
         </div>
-        <div className="education-of-today-and-tomorw">
+        <div className={styles.educationOfTodayAndTomorw}>
           <img
-            className="on-its-way-18"
+            className={styles.onItsWay15}
             loading="lazy"
             alt=""
             src="/2023-on-its-way-1-13@2x.png"
           />
-          <div className="education-today-and-tomorrow-wrapper">
-            <div className="education-today-and">
+          <div className={styles.educationTodayAndTomorrowWrapper}>
+            <div className={styles.educationTodayAnd}>
               Education Today and Tomorrow
             </div>
           </div>
         </div>
-        <div className="medaillon">
+        <div className={styles.medaillon}>
           <img
-            className="on-its-way-19"
+            className={styles.onItsWay16}
             loading="lazy"
             alt=""
             src="/2023-on-its-way-1-14@2x.png"
           />
-          <div className="medallion-wrapper">
-            <div className="medallion">Medallion</div>
+          <div className={styles.medallionWrapper}>
+            <div className={styles.medallion}>Medallion</div>
           </div>
         </div>
-        <div className="collages">
+        <div className={styles.collages}>
           <img
-            className="on-its-way-110"
+            className={styles.onItsWay17}
             loading="lazy"
             alt=""
             src="/2023-on-its-way-1-15@2x.png"
           />
-          <div className="titel5">
-            <div className="collages1">Collages</div>
+          <div className={styles.titel3}>
+            <div className={styles.collages1}>Collages</div>
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="contact-info">
-          <div className="contact-details">
-            <div className="contact-new-email">
+      <div className={styles.footer}>
+        <div className={styles.contactInfo}>
+          <div className={styles.contactDetails}>
+            <div className={styles.contactNewEmail}>
               Contact: NEW EMAIL ADDRESS!!!
             </div>
           </div>
-          <div className="collaboration-info">
-            <div className="collaboration-details">
-              <div className="website-designed-by">
+          <div className={styles.collaborationInfo}>
+            <div className={styles.collaborationDetails}>
+              <div className={styles.websiteDesignedBy}>
                 Website designed by Orlaith Mayet
               </div>
             </div>
-            <div className="feel-free-to">
+            <div className={styles.feelFreeTo}>
               Feel free to reach out to collaborate on a project or just to say
               hi!
             </div>

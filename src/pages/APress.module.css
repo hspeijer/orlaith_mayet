@@ -59,7 +59,7 @@
   width: 71px;
   height: 29px;
 }
-.home-page-yellow-triangle-with {
+.homePageYellowTriangleWith {
   position: absolute;
   top: -317px;
   left: -17px;
@@ -82,13 +82,13 @@
   color: var(--color-black);
   text-align: center;
 }
-.exposition-wrapper,
-.frame-parent {
+.expositionWrapper,
+.frameParent {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.exposition-wrapper {
+.expositionWrapper {
   cursor: pointer;
   border: 0;
   padding: var(--padding-4xl) var(--padding-xl);
@@ -102,21 +102,21 @@
   box-sizing: border-box;
   z-index: 1;
 }
-.exposition-wrapper:hover {
+.expositionWrapper:hover {
   background-color: var(--color-yellow-200);
 }
-.frame-parent {
+.frameParent {
   width: 1407px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 240px;
 }
-.a-press,
-.a-press-inner {
+.aPress,
+.aPressInner {
   display: flex;
   box-sizing: border-box;
 }
-.a-press-inner {
+.aPressInner {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
@@ -124,7 +124,7 @@
   padding: 0 var(--padding-xl) 0 21px;
   max-width: 100%;
 }
-.a-press {
+.aPress {
   width: 100%;
   position: relative;
   background-color: var(--color-white);
@@ -142,7 +142,7 @@
   font-family: var(--header);
 }
 @media screen and (max-width: 1200px) {
-  .frame-parent {
+  .frameParent {
     gap: 120px;
   }
 }
@@ -156,10 +156,10 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .frame-parent {
+  .frameParent {
     gap: 60px;
   }
-  .a-press {
+  .aPress {
     gap: 18px;
   }
 }
@@ -171,7 +171,7 @@
   .workprojects {
     font-size: var(--font-size-lg);
   }
-  .frame-parent {
+  .frameParent {
     gap: 30px;
   }
 }

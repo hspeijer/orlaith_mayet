@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./BackGroundIcon.css";
+import styles from "./BackGroundIcon.module.css";
 
 export type BackGroundIconType = {
   className?: string;
@@ -10,7 +10,7 @@ const BackGroundIcon: FunctionComponent<BackGroundIconType> = ({
 }) => {
   return (
     <img
-      className={`back-ground-icon ${className}`}
+      className={[styles.backGroundIcon, className].join(" ")}
       alt=""
       src="/back-ground@2x.png"
     />

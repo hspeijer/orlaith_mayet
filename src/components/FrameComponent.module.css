@@ -15,8 +15,8 @@
   max-width: 145%;
   flex-shrink: 0;
 }
-.frame-child,
-.frame-item {
+.frameChild,
+.frameItem {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -26,11 +26,11 @@
   object-fit: cover;
   min-height: 485px;
 }
-.frame-item {
+.frameItem {
   z-index: 1;
   margin-left: -296px;
 }
-.frame-container {
+.frameParent {
   width: 2065px;
   display: flex;
   flex-direction: row;
@@ -41,8 +41,8 @@
   flex-shrink: 0;
   max-width: 301%;
 }
-.image-slider-map-child,
-.image-slider-map-item {
+.imageSliderMapChild,
+.imageSliderMapItem {
   align-self: stretch;
   width: 682px;
   position: relative;
@@ -52,7 +52,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.image-slider-map {
+.imageSliderMap {
   width: 688px;
   overflow: hidden;
   flex-shrink: 0;
@@ -66,32 +66,32 @@
   min-width: 688px;
   max-width: 100%;
 }
-.i-started-this {
+.iStartedThis {
   align-self: stretch;
   height: 312px;
   position: relative;
   line-height: 27px;
   display: inline-block;
 }
-.globally-this-year,
+.globallyThisYear,
 .p,
-.tons-of-waste {
+.tonsOfWaste {
   margin: 0;
 }
-.the-world-counts1 {
+.theWorldCounts1 {
   color: inherit;
 }
-.the-world-counts {
+.theWorldCounts {
   margin: 0;
 }
-.tons-of-waste-container {
+.tonsOfWasteContainer {
   height: 80px;
   width: 166px;
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.waste-statistics {
+.wasteStatistics {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -101,48 +101,48 @@
   text-align: center;
   font-size: var(--body-text-desctiption-size);
 }
-.project-description,
-.slider-content,
-.slider-imiges {
+.projectDescription,
+.sliderContent,
+.sliderImiges {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.project-description {
+.projectDescription {
   width: 367px;
   flex-direction: column;
   gap: var(--gap-75xl);
   min-width: 367px;
 }
-.slider-content,
-.slider-imiges {
+.sliderContent,
+.sliderImiges {
   flex-direction: row;
   box-sizing: border-box;
 }
-.slider-imiges {
+.sliderImiges {
   border-radius: var(--br-21xl);
   background-color: var(--color-yellow-100);
   padding: var(--padding-31xl) var(--padding-51xl);
   gap: var(--gap-38xl);
 }
-.slider-content {
+.sliderContent {
   padding: 0 0 var(--padding-3xl);
 }
-.how-to-be {
+.howToBe {
   width: 278px;
   position: relative;
   display: inline-block;
 }
-.involvement-content,
-.involvement-content-wrapper {
+.involvementContent,
+.involvementContentWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   box-sizing: border-box;
   max-width: 100%;
 }
-.involvement-content {
+.involvementContent {
   flex: 1;
   box-shadow: -10px 30px 74px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mini);
@@ -151,7 +151,7 @@
   justify-content: center;
   padding: var(--padding-4xl) var(--padding-xl);
 }
-.involvement-content-wrapper {
+.involvementContentWrapper {
   width: 544px;
   justify-content: flex-start;
   padding: 0 var(--padding-base);
@@ -159,7 +159,7 @@
   font-size: var(--header-size);
   font-family: var(--header);
 }
-.under-construction-via {
+.underConstructionVia {
   width: 445.3px;
   height: 41.6px;
   position: relative;
@@ -167,20 +167,20 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.work-in-progress-1-icon {
+.workInProgress1Icon {
   height: 271px;
   width: 271px;
   position: relative;
   object-fit: cover;
 }
-.work-in-progress-1-wrapper {
+.workInProgress1Wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
 }
-.construction-info-content {
+.constructionInfoContent {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -189,21 +189,21 @@
   gap: var(--gap-base-4);
   max-width: 100%;
 }
-.construction-info-content-wrapper,
-.slider-content-parent {
+.constructionInfoContentWrapper,
+.sliderContentParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
 }
-.construction-info-content-wrapper {
+.constructionInfoContentWrapper {
   width: 776px;
   flex-direction: row;
   padding: 0 var(--padding-base);
   font-size: var(--body-text-desctiption-size);
 }
-.slider-content-parent {
+.sliderContentParent {
   flex-direction: column;
   padding: 0 var(--padding-xl) 0 0;
   gap: var(--gap-70xl);
@@ -213,19 +213,19 @@
   font-family: var(--body);
 }
 @media screen and (max-width: 1350px) {
-  .frame-container {
+  .frameParent {
     padding-right: var(--padding-479xl);
     box-sizing: border-box;
   }
-  .image-slider-map {
+  .imageSliderMap {
     flex: 1;
     gap: var(--gap-333xl);
     min-width: 100%;
   }
-  .project-description {
+  .projectDescription {
     flex: 1;
   }
-  .slider-imiges {
+  .sliderImiges {
     flex-wrap: wrap;
     padding-left: var(--padding-16xl);
     padding-right: var(--padding-16xl);
@@ -233,49 +233,49 @@
   }
 }
 @media screen and (max-width: 1125px) {
-  .project-description {
+  .projectDescription {
     min-width: 100%;
   }
 }
 @media screen and (max-width: 800px) {
-  .frame-container {
+  .frameParent {
     padding-right: var(--padding-230xl);
     box-sizing: border-box;
   }
-  .image-slider-map {
+  .imageSliderMap {
     gap: var(--gap-157xl);
   }
-  .slider-imiges {
+  .sliderImiges {
     gap: var(--gap-9xl);
     padding-top: var(--padding-13xl);
     padding-bottom: var(--padding-13xl);
     box-sizing: border-box;
   }
-  .how-to-be {
+  .howToBe {
     font-size: var(--body-size);
   }
-  .slider-content-parent {
+  .sliderContentParent {
     gap: var(--gap-25xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-container {
+  .frameParent {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
-  .image-slider-map {
+  .imageSliderMap {
     gap: var(--gap-69xl);
   }
-  .i-started-this {
+  .iStartedThis {
     font-size: var(--font-size-lgi);
   }
-  .project-description {
+  .projectDescription {
     gap: var(--gap-28xl);
   }
-  .how-to-be {
+  .howToBe {
     font-size: var(--font-size-lg);
   }
-  .slider-content-parent {
+  .sliderContentParent {
     gap: var(--gap-3xl);
   }
 }

@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import "./Header1.css";
+import styles from "./Header1.module.css";
 
 export type HeaderType = {
   className?: string;
@@ -37,24 +37,27 @@ const Header: FunctionComponent<HeaderType> = ({
   ]);
 
   return (
-    <header className={`header3 ${className}`} style={headerStyle}>
-      <h2 className="orlaith-mayet1">Orlaith Mayet</h2>
-      <nav className="main-content">
-        <nav className="frame-group">
-          <div className="work-wrapper">
-            <div className="work3">
-              <a className="workprojects3">Work/Projects</a>
+    <header
+      className={[styles.header, className].join(" ")}
+      style={headerStyle}
+    >
+      <h2 className={styles.orlaithMayet}>Orlaith Mayet</h2>
+      <nav className={styles.mainContent}>
+        <nav className={styles.frameParent}>
+          <div className={styles.workWrapper}>
+            <div className={styles.work}>
+              <a className={styles.workprojects}>Work/Projects</a>
             </div>
           </div>
-          <div className="map6">
-            <a className="map7">Map</a>
+          <div className={styles.map}>
+            <a className={styles.map1}>Map</a>
           </div>
-          <div className="bio6">
-            <a className="bio7">Bio</a>
+          <div className={styles.bio}>
+            <a className={styles.bio1}>Bio</a>
           </div>
-          <div className="press-wrapper">
-            <div className="press6">
-              <a className="press7">Press</a>
+          <div className={styles.pressWrapper}>
+            <div className={styles.press}>
+              <a className={styles.press1}>Press</a>
             </div>
           </div>
         </nav>

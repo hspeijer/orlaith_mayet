@@ -1,16 +1,16 @@
-.on-its-way-13 {
+.onItsWay1 {
   width: 280px;
   height: 280px;
   position: relative;
   object-fit: cover;
 }
-.drop-murphys-constant,
-.on-its-way-1-wrapper {
+.dropMurphysConstant,
+.onItsWay1Wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.on-its-way-1-wrapper {
+.onItsWay1Wrapper {
   margin: 0 !important;
   position: absolute;
   top: 0;
@@ -19,12 +19,12 @@
   width: 100%;
   height: 100%;
 }
-.drop-murphys-constant {
+.dropMurphysConstant {
   height: 50px;
   flex: 1;
   position: relative;
 }
-.titel2 {
+.titel {
   width: 155px;
   margin: 0 !important;
   position: absolute;
@@ -36,13 +36,13 @@
   z-index: 1;
 }
 .murphy,
-.titel2,
-.work-projects-on-its-way3 {
+.titel,
+.workProjectsOnItsWay {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.work-projects-on-its-way3 {
+.workProjectsOnItsWay {
   height: 280px;
   flex: 1;
   overflow: hidden;
@@ -58,7 +58,7 @@
   left: 699px;
   flex-direction: row;
 }
-.on-its-way-14 {
+.onItsWay11 {
   position: absolute;
   top: calc(50% - 142.5px);
   left: calc(50% - 142.5px);
@@ -66,14 +66,14 @@
   height: 100%;
   object-fit: cover;
 }
-.woodman-nification {
+.woodmanNification {
   height: 44px;
   flex: 1;
   position: relative;
   line-height: 23px;
   display: inline-block;
 }
-.woodman-nification-wrapper {
+.woodmanNificationWrapper {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -89,7 +89,7 @@
   box-sizing: border-box;
   z-index: 1;
 }
-.work-projects-on-its-way4 {
+.workProjectsOnItsWay1 {
   height: 285px;
   flex: 1;
   position: relative;
@@ -106,7 +106,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.on-its-way-15 {
+.onItsWay12 {
   position: absolute;
   top: calc(50% - 142.5px);
   left: calc(50% - 150.5px);
@@ -114,13 +114,13 @@
   height: 294px;
   object-fit: cover;
 }
-.to-1-in {
+.to1In {
   height: 50px;
   flex: 1;
   position: relative;
   display: inline-block;
 }
-.to-1-in-an-imaginary-world-wrapper {
+.to1InAnImaginaryWorldWrapper {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -136,19 +136,19 @@
   box-sizing: border-box;
   z-index: 1;
 }
-.work-projects-on-its-way5 {
+.workProjectsOnItsWay2 {
   height: 285px;
   flex: 1;
   position: relative;
   overflow: hidden;
 }
-.on-its-way-16,
-.to-1 {
+.onItsWay13,
+.to1 {
   position: absolute;
   margin: 0 !important;
   left: 0;
 }
-.to-1 {
+.to1 {
   width: 285px;
   top: 886px;
   display: flex;
@@ -156,7 +156,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.on-its-way-16 {
+.onItsWay13 {
   height: 100%;
   width: 100%;
   top: 0;
@@ -167,13 +167,13 @@
   max-height: 100%;
   object-fit: cover;
 }
-.les-non-dits1 {
+.lesNonDits1 {
   position: relative;
   line-height: 23px;
   display: inline-block;
   min-width: 109px;
 }
-.titel3 {
+.titel1 {
   border-radius: var(--br-mini) var(--br-mini) 0 var(--br-mini);
   background-color: var(--color-black);
   display: flex;
@@ -184,7 +184,7 @@
   white-space: nowrap;
   z-index: 1;
 }
-.work-projects-on-its-way6 {
+.workProjectsOnItsWay3 {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
@@ -194,12 +194,12 @@
   justify-content: flex-end;
   position: relative;
 }
-.les-non-dits,
-.on-its-way-17 {
+.lesNonDits,
+.onItsWay14 {
   position: absolute;
   height: 285px;
 }
-.les-non-dits {
+.lesNonDits {
   width: 285px;
   margin: 0 !important;
   top: 886px;
@@ -209,7 +209,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.on-its-way-17 {
+.onItsWay14 {
   width: calc(100% - 18px);
   top: 0;
   right: 10px;
@@ -223,7 +223,7 @@
   display: inline-block;
   min-width: 69px;
 }
-.titel4 {
+.titel2 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -236,7 +236,7 @@
   padding: var(--padding-lgi) var(--padding-29xl);
   z-index: 1;
 }
-.work-projects-on-its-way7 {
+.workProjectsOnItsWay4 {
   height: 285px;
   flex: 1;
   position: relative;
@@ -253,7 +253,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.on-its-way-18 {
+.onItsWay15 {
   position: absolute;
   top: 0;
   left: -8px;
@@ -261,11 +261,11 @@
   height: 293px;
   object-fit: cover;
 }
-.education-today-and {
+.educationTodayAnd {
   flex: 1;
   position: relative;
 }
-.education-today-and-tomorrow-wrapper {
+.educationTodayAndTomorrowWrapper {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -281,7 +281,7 @@
   box-sizing: border-box;
   z-index: 1;
 }
-.education-of-today-and-tomorw {
+.educationOfTodayAndTomorw {
   height: 285px;
   width: 285px;
   position: absolute;
@@ -291,7 +291,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.on-its-way-19 {
+.onItsWay16 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -308,12 +308,12 @@
   min-width: 83px;
 }
 .medaillon,
-.medallion-wrapper {
+.medallionWrapper {
   overflow: hidden;
   display: flex;
   flex-direction: row;
 }
-.medallion-wrapper {
+.medallionWrapper {
   border-radius: var(--br-mini) var(--br-mini) 0 var(--br-mini);
   background-color: var(--color-black);
   align-items: flex-start;
@@ -332,7 +332,7 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
-.on-its-way-110 {
+.onItsWay17 {
   position: absolute;
   top: 0;
   left: -4px;
@@ -345,7 +345,7 @@
   display: inline-block;
   min-width: 70px;
 }
-.titel5 {
+.titel3 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -368,7 +368,12 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.projects-grid {
+.contactNewEmail,
+.projectsGrid {
+  position: relative;
+  max-width: 100%;
+}
+.projectsGrid {
   width: 979px;
   height: 1765px;
   display: flex;
@@ -376,19 +381,15 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  position: relative;
-  max-width: 100%;
 }
-.contact-new-email {
+.contactNewEmail {
   height: 26px;
   flex: 1;
-  position: relative;
   line-height: 27px;
   display: inline-block;
-  max-width: 100%;
   z-index: 1;
 }
-.contact-details {
+.contactDetails {
   width: 396px;
   display: flex;
   flex-direction: row;
@@ -398,12 +399,12 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.website-designed-by {
+.websiteDesignedBy {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
-.collaboration-details {
+.collaborationDetails {
   width: 349px;
   display: flex;
   flex-direction: column;
@@ -413,7 +414,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.feel-free-to {
+.feelFreeTo {
   width: 365px;
   position: relative;
   text-align: left;
@@ -423,7 +424,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.collaboration-info {
+.collaborationInfo {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -432,7 +433,7 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.contact-info {
+.contactInfo {
   width: 1011px;
   display: flex;
   flex-direction: column;
@@ -441,7 +442,7 @@
   gap: var(--gap-5xl);
   max-width: 100%;
 }
-.content-row,
+.contentRow,
 .footer {
   display: flex;
   align-items: flex-start;
@@ -454,7 +455,7 @@
   font-size: var(--body-size);
   color: var(--color-black);
 }
-.content-row {
+.contentRow {
   width: 1336px;
   flex-direction: column;
   justify-content: flex-start;
@@ -465,37 +466,37 @@
   font-family: var(--body);
 }
 @media screen and (max-width: 1200px) {
-  .content-row {
+  .contentRow {
     gap: var(--gap-104xl);
   }
 }
 @media screen and (max-width: 1050px) {
-  .collaboration-info {
+  .collaborationInfo {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
 @media screen and (max-width: 750px) {
-  .content-row {
+  .contentRow {
     gap: var(--gap-43xl);
   }
 }
 @media screen and (max-width: 450px) {
   .collages1,
-  .drop-murphys-constant,
-  .education-today-and,
+  .dropMurphysConstant,
+  .educationTodayAnd,
   .medallion,
-  .to-1-in,
-  .woodman-nification,
+  .to1In,
+  .woodmanNification,
   .xyzpov {
     font-size: var(--body-text-desctiption-size);
   }
-  .contact-new-email,
-  .feel-free-to,
-  .website-designed-by {
+  .contactNewEmail,
+  .feelFreeTo,
+  .websiteDesignedBy {
     font-size: var(--font-size-lgi);
   }
-  .content-row {
+  .contentRow {
     gap: var(--gap-12xl);
   }
 }

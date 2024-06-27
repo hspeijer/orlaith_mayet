@@ -1,58 +1,58 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import Header from "../components/Header1";
 import FrameComponent from "../components/FrameComponent";
-import "./AMAP.css";
+import styles from "./AMAP.module.css";
 
 const AMAP: FunctionComponent = () => {
   return (
-    <div className="a-map">
+    <div className={styles.aMap}>
       <Header />
-      <div className="side-bar">
-        <div className="search-bar-parent">
-          <div className="search-bar">
-            <div className="search">search</div>
+      <div className={styles.sideBar}>
+        <div className={styles.searchBarParent}>
+          <div className={styles.searchBar}>
+            <div className={styles.search}>search</div>
           </div>
-          <h2 className="waste-map">Waste Map</h2>
+          <h2 className={styles.wasteMap}>Waste Map</h2>
         </div>
       </div>
-      <div className="header1">
-        <div className="work1">
-          <b className="workprojects1">Work/Projects</b>
+      <div className={styles.header}>
+        <div className={styles.work}>
+          <b className={styles.workprojects}>Work/Projects</b>
         </div>
-        <div className="map2">
-          <b className="map3">Map</b>
+        <div className={styles.map}>
+          <b className={styles.map1}>Map</b>
         </div>
-        <div className="bio2">
-          <b className="bio3">Bio</b>
+        <div className={styles.bio}>
+          <b className={styles.bio1}>Bio</b>
         </div>
-        <div className="press2">
-          <b className="press3">Press</b>
+        <div className={styles.press}>
+          <b className={styles.press1}>Press</b>
         </div>
         <img
-          className="home-page-yellow-triangle-with1"
+          className={styles.homePageYellowTriangleWith}
           alt=""
           src="/home-page-yellow-triangle-with-name-2@2x.png"
         />
       </div>
-      <main className="interactive-map-content-parent">
-        <section className="interactive-map-content">
-          <div className="wrapper-interactive-map">
+      <main className={styles.interactiveMapContentParent}>
+        <section className={styles.interactiveMapContent}>
+          <div className={styles.wrapperInteractiveMap}>
             <img
-              className="interactive-map-icon"
+              className={styles.interactiveMapIcon}
               loading="lazy"
               alt=""
               src="/interactive-map@2x.png"
             />
           </div>
-          <div className="legend">
-            <b className="legend1">Legend:</b>
-            <div className="under-construction">
-              <p className="under-construction1">UNDER CONSTRUCTION</p>
+          <div className={styles.legend}>
+            <b className={styles.legend1}>Legend:</b>
+            <div className={styles.underConstruction}>
+              <p className={styles.underConstruction1}>UNDER CONSTRUCTION</p>
             </div>
           </div>
         </section>
-        <div className="waste-message">
-          <div className="while-waste-is">
+        <div className={styles.wasteMessage}>
+          <div className={styles.whileWasteIs}>
             While waste is piling up, we are running out of solutions. This
             initiative is a collaborative map of scrapyard / recycling
             facilities of free resources such as wood, metal, electronic

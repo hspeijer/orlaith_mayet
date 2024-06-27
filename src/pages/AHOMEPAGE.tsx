@@ -1,18 +1,18 @@
 import { FunctionComponent } from "react";
 import Header from "../components/Header";
 import ContentRow from "../components/ContentRow";
-import "./AHOMEPAGE.css";
+import styles from "./AHOMEPAGE.module.css";
 
 const AHOMEPAGE: FunctionComponent = () => {
   return (
-    <div className="a-home-page">
+    <div className={styles.aHomePage}>
       <Header />
       <img
-        className="cloudsecurityalliancecsa-icon"
+        className={styles.cloudsecurityalliancecsaIcon}
         alt=""
         src="/cloudsecurityalliancecsa.svg"
       />
-      <main className="content">
+      <main className={styles.content}>
         <ContentRow />
       </main>
     </div>

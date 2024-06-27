@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import "./Baver.css";
+import styles from "./Baver.module.css";
 
 export type BaverType = {
   className?: string;
@@ -26,11 +26,16 @@ const Baver: FunctionComponent<BaverType> = ({
   }, [propLeft, propTop]);
 
   return (
-    <div className={`baver ${className}`} style={baverStyle}>
-      <div className="work-projects-on-its-way2">
-        <img className="on-its-way-12" loading="lazy" alt="" src={onItsWay1} />
-        <div className="bver-wrapper">
-          <div className="bver">{bver}</div>
+    <div className={[styles.baver, className].join(" ")} style={baverStyle}>
+      <div className={styles.workProjectsOnItsWay}>
+        <img
+          className={styles.onItsWay1}
+          loading="lazy"
+          alt=""
+          src={onItsWay1}
+        />
+        <div className={styles.bverWrapper}>
+          <div className={styles.bver}>{bver}</div>
         </div>
       </div>
     </div>
