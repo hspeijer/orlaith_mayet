@@ -1,0 +1,58 @@
+.on-its-way-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.on-its-way1 {
+  width: 88px;
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+}
+.titel {
+  border-radius: var(--br-mini) var(--br-mini) 0 var(--br-mini);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-19xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.work-projects-on-its-way {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.on-its-way {
+  height: 280px;
+  width: 280px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--titels-banner-size);
+  color: var(--color-white);
+  font-family: var(--body);
+}

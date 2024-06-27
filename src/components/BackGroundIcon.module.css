@@ -1,0 +1,9 @@
+.back-ground-icon {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 667px);
+  width: 1333px;
+  height: 781px;
+  overflow: hidden;
+  object-fit: cover;
+}

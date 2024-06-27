@@ -1,0 +1,161 @@
+.blank-line,
+.blank-line1,
+.blank-line2,
+.creating-actionable-futures,
+.gerrit-rietveld-academy,
+.rietveld-reviewed-2023,
+.the-center-of {
+  margin: 0;
+}
+.creating-actionable-futures-container {
+  height: 200px;
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.press-media1 {
+  height: 34px;
+  position: relative;
+  font-size: var(--header-size);
+  display: inline-block;
+  font-family: var(--header);
+  color: var(--color-black);
+  text-align: center;
+}
+.press-media,
+.titel6 {
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.titel6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xl) var(--padding-xl);
+  background-color: var(--color-yellow-100);
+  width: 372px;
+  margin: 0 !important;
+  position: absolute;
+  top: -62px;
+  left: -92px;
+  box-shadow: -10px 30px 74px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.titel6:hover {
+  background-color: var(--color-yellow-200);
+}
+.press-media {
+  width: 550px;
+  background-color: var(--color-gray);
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-41xl);
+  position: relative;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.passage-lacte {
+  font-family: var(--body);
+}
+.blank-line3,
+.passage-lacte-ii-in-out {
+  margin: 0;
+}
+.passage-lacte1 {
+  font-family: var(--body);
+}
+.blank-line4,
+.passage-lacte-rentre-an {
+  margin: 0;
+}
+.graduation-exhibition {
+  font-family: var(--body);
+}
+.blank-line5,
+.graduation-exhibition-gerri {
+  margin: 0;
+}
+.thank-you-for {
+  font-family: var(--body);
+}
+.blank-line6,
+.thank-you-for-your-understandi {
+  margin: 0;
+}
+.as-if-they {
+  font-family: var(--body);
+}
+.as-if-they-know-when-site-lo,
+.blank-line7 {
+  margin: 0;
+}
+.p2 {
+  font-family: var(--body);
+}
+.blank-line8,
+.p2-overamstel-exhibition-gr {
+  margin: 0;
+}
+.abecedar {
+  font-family: var(--body);
+}
+.abecedar-ville-de-moulins-p {
+  margin: 0;
+}
+.passage-lacte-container {
+  height: 597px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.press-media-parent,
+.revivez-linstant {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.revivez-linstant {
+  width: 550px;
+  margin: 0 !important;
+  position: absolute;
+  top: -263px;
+  left: 97px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-41xl) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.press-media-parent {
+  align-self: stretch;
+  justify-content: flex-end;
+  position: relative;
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--color-black);
+  font-family: var(--body);
+}
+@media screen and (max-width: 750px) {
+  .press-media {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .creating-actionable-futures-container,
+  .passage-lacte-container {
+    font-size: var(--font-size-lgi);
+  }
+}
