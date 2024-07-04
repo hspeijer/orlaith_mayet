@@ -35,11 +35,15 @@ body {
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
-  --color-gray: rgba(0, 0, 0, 0.05);
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-gray-200: rgba(0, 0, 0, 0.05);
   --color-yellow-100: #ffff00;
   --color-yellow-200: #e6e600;
 
   /* Gaps */
+  --gap-141xl: 160px;
+  --gap-21xl: 40px;
+  --gap-61xl: 80px;
   --gap-228xl: 247px;
   --gap-104xl: 123px;
   --gap-12xl: 31px;
@@ -62,6 +66,7 @@ body {
   --gap-157xl: 176px;
   --gap-333xl: 352px;
   --gap-69xl: 88px;
+  --gap-2xs: 11px;
 
   /* Paddings */
   --padding-xl: 20px;
@@ -103,8 +108,24 @@ body {
   --padding-230xl: 249px;
   --padding-479xl: 498px;
   --padding-14xl: 33px;
+  --padding-119xl: 138px;
+  --padding-104xl: 123px;
+  --padding-34xl: 53px;
+  --padding-767xl: 786px;
+  --padding-177xl: 196px;
+  --padding-374xl: 393px;
+  --padding-42xl: 61px;
+  --padding-60xl: 79px;
+  --padding-81xl: 100px;
+  --padding-8xl: 27px;
+  --padding-23xl: 42px;
+  --padding-119xl-5: 138.5px;
+  --padding-99xl-5: 118.5px;
+  --padding-103xl: 122px;
+  --padding-83xl: 102px;
 
   /* Border radiuses */
   --br-mini: 15px;
   --br-21xl: 40px;
+  --br-81xl: 100px;
 }

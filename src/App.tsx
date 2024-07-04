@@ -9,6 +9,7 @@ import AHOMEPAGE from "./pages/AHOMEPAGE";
 import APress from "./pages/APress";
 import ABio from "./pages/ABio";
 import AMAP from "./pages/AMAP";
+import DesktopHomePage1920px from "./pages/DesktopHomePage1920px";
 
 function App() {
   const action = useNavigationType();
@@ -42,6 +43,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/desktop-home-page-1920px":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -64,6 +69,10 @@ function App() {
       <Route path="/a-press" element={<APress />} />
       <Route path="/a-bio" element={<ABio />} />
       <Route path="/a-map" element={<AMAP />} />
+      <Route
+        path="/desktop-home-page-1920px"
+        element={<DesktopHomePage1920px />}
+      />
     </Routes>
   );
 }
