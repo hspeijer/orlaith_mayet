@@ -1,4 +1,4 @@
-.logo-icon {
+.wrapper-vector-18-child {
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -7,7 +7,7 @@
   top: 4px;
   transform: scale(1.532);
 }
-.wrapper-logo {
+.wrapper-vector-18 {
   height: 278.4px;
   width: 1929.9px;
   position: absolute;
@@ -19,12 +19,12 @@
   justify-content: center;
   z-index: 0;
 }
-.website-designed-by1 {
+.website-designed-by {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
-.copyright {
+.website-info {
   width: 349px;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
   display: inline-block;
   z-index: 1;
 }
-.feel-free-to1 {
+.feel-free-to {
   align-self: stretch;
   position: relative;
   text-align: left;
@@ -68,6 +68,7 @@
     var(--padding-767xl);
   box-sizing: border-box;
   position: relative;
+  flex-shrink: 0;
   gap: var(--gap-xl);
   text-align: center;
   font-size: var(--body-size);
@@ -76,7 +77,7 @@
 }
 @media screen and (max-width: 1650px) {
   .contact,
-  .copyright {
+  .website-info {
     flex: 1;
     min-width: 100%;
   }
@@ -101,8 +102,8 @@
 }
 @media screen and (max-width: 450px) {
   .contact-infoorlaithmayetart,
-  .feel-free-to1,
-  .website-designed-by1 {
+  .feel-free-to,
+  .website-designed-by {
     font-size: var(--font-size-lgi);
   }
 }

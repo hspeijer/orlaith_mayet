@@ -5,11 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import AHOMEPAGE from "./pages/AHOMEPAGE";
-import APress from "./pages/APress";
-import ABio from "./pages/ABio";
-import AMAP from "./pages/AMAP";
 import DesktopHomePage1920px from "./pages/DesktopHomePage1920px";
+import DesktopPress1920px from "./pages/DesktopPress1920px";
+import DesktopBio1920px from "./pages/DesktopBio1920px";
+import DesktopMap1920px from "./pages/DesktopMap1920px";
 
 function App() {
   const action = useNavigationType();
@@ -31,19 +30,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/a-press":
+      case "/desktop-press-1920px":
         title = "";
         metaDescription = "";
         break;
-      case "/a-bio":
+      case "/desktop-bio-1920px":
         title = "";
         metaDescription = "";
         break;
-      case "/a-map":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/desktop-home-page-1920px":
+      case "/desktop-map-1920px":
         title = "";
         metaDescription = "";
         break;
@@ -65,14 +60,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<AHOMEPAGE />} />
-      <Route path="/a-press" element={<APress />} />
-      <Route path="/a-bio" element={<ABio />} />
-      <Route path="/a-map" element={<AMAP />} />
-      <Route
-        path="/desktop-home-page-1920px"
-        element={<DesktopHomePage1920px />}
-      />
+      <Route path="/" element={<DesktopHomePage1920px />} />
+      <Route path="/desktop-press-1920px" element={<DesktopPress1920px />} />
+      <Route path="/desktop-bio-1920px" element={<DesktopBio1920px />} />
+      <Route path="/desktop-map-1920px" element={<DesktopMap1920px />} />
     </Routes>
   );
 }

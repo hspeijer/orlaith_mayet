@@ -1,23 +1,21 @@
-.project-images,
-.source-image-icon {
+.thesis-huma-fallback-child {
   width: 280px;
   height: 280px;
   position: absolute;
   margin: 0 !important;
-}
-.project-images {
   top: 0;
   right: 0;
   border-radius: 0 0 0 var(--br-81xl);
   background-color: var(--color-black);
 }
-.source-image-icon {
-  bottom: 0;
-  left: 0;
+.source-image-icon1 {
+  width: 280px;
+  height: 280px;
+  position: relative;
   object-fit: cover;
   z-index: 1;
 }
-.input-titel {
+.input-titel1 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -25,41 +23,41 @@
   align-items: center;
   justify-content: center;
 }
-.input-titel-30px,
-.on-its-way {
+.input-titel-30px1,
+.thesis-huma-fallback {
+  margin: 0 !important;
+  position: absolute;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  box-sizing: border-box;
 }
-.input-titel-30px {
+.input-titel-30px1 {
   width: 244px;
-  flex: 1;
+  height: 76px;
+  bottom: 102px;
+  left: 18px;
   flex-direction: row;
   padding: var(--padding-8xs);
+  box-sizing: border-box;
   z-index: 2;
 }
-.on-its-way {
-  height: 300px;
-  width: 300px;
-  margin: 0 !important;
-  position: absolute;
+.thesis-huma-fallback {
   top: 0;
-  left: 0;
+  left: 433px;
   flex-direction: column;
-  padding: var(--padding-119xl-5) var(--padding-lg) var(--padding-99xl-5);
+  padding: var(--padding-xl) var(--padding-xl) 0 0;
   text-align: center;
   font-size: var(--header-size);
   color: var(--color-gray-200);
   font-family: var(--body);
 }
 @media screen and (max-width: 900px) {
-  .input-titel {
+  .input-titel1 {
     font-size: var(--body-size);
   }
 }
 @media screen and (max-width: 450px) {
-  .input-titel {
+  .input-titel1 {
     font-size: var(--font-size-lg);
   }
 }

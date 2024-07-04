@@ -29,7 +29,7 @@ const OnItsWay: FunctionComponent<OnItsWayType> = ({
   }, [propLeft, propPadding, propTop]);
 
   return (
-    <div className={`on-its-way2 ${className}`} style={onItsWayStyle}>
+    <div className={`on-its-way ${className}`} style={onItsWayStyle}>
       <div className="project-images" />
       <img
         className="source-image-icon"

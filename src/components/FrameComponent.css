@@ -1,0 +1,204 @@
+.slide-placeholder-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.slide-element-icon,
+.slide-element-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 485px;
+}
+.slide-element-icon1 {
+  z-index: 1;
+  margin-left: -296px;
+}
+.slide-content {
+  width: 2065px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-978xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.slide-placeholder-icon1,
+.slide-placeholder-icon2 {
+  align-self: stretch;
+  width: 682px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 485px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.image-slider-map {
+  width: 682px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-1679xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-686xl);
+  min-width: 682px;
+  max-width: 100%;
+  z-index: 1;
+}
+.i-started-this {
+  height: 234px;
+  line-height: 27px;
+  display: inline-block;
+}
+.i-started-this,
+.the-map-only {
+  align-self: stretch;
+  position: relative;
+}
+.i-started-this-map-after-the-p-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.globally-this-year,
+.p,
+.tons-of-waste {
+  margin: 0;
+}
+.the-world-counts1 {
+  color: inherit;
+}
+.the-world-counts {
+  margin: 0;
+}
+.tons-of-waste-container {
+  height: 80px;
+  width: 166px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.waste-statistic {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--body-text-desctiption-size);
+}
+.project-description {
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  min-width: 367px;
+  max-width: 100%;
+}
+.project-info,
+.project-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.project-info {
+  justify-content: flex-start;
+  gap: var(--gap-53xl);
+}
+.project-info-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-100xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--color-black);
+  font-family: var(--body);
+}
+@media screen and (max-width: 1275px) {
+  .slide-content {
+    padding-right: var(--padding-479xl);
+    box-sizing: border-box;
+  }
+  .image-slider-map {
+    flex: 1;
+    gap: var(--gap-333xl);
+    padding-left: var(--padding-830xl);
+    box-sizing: border-box;
+  }
+  .project-description {
+    flex: 1;
+  }
+  .project-info {
+    flex-wrap: wrap;
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .slide-content {
+    padding-right: var(--padding-230xl);
+    box-sizing: border-box;
+  }
+  .image-slider-map {
+    gap: var(--gap-157xl);
+    padding-left: var(--padding-405xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .project-info {
+    gap: var(--gap-lg);
+  }
+  .project-info-wrapper {
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slide-content {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .image-slider-map {
+    gap: var(--gap-69xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .i-started-this,
+  .the-map-only {
+    font-size: var(--font-size-lgi);
+  }
+  .i-started-this-map-after-the-p-parent {
+    gap: var(--gap-mid);
+  }
+  .project-description {
+    gap: var(--gap-20xl);
+    min-width: 100%;
+  }
+}
