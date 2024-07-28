@@ -28,18 +28,19 @@ const Header: FunctionComponent<HeaderType> = ({
         <nav className="work-link">
           <div className="work-instance">
             <div className="work2">
-              <a className="workprojects2">Work/Projects</a>
+              <a href="/" className="workprojects2">Work/Projects</a>
             </div>
           </div>
           <div className="map4">
-            <a className="map5">Map</a>
+            <a href="/map" className="map5">Map</a>
           </div>
           <div className="bio4">
-            <a className="bio5">Bio</a>
+            <a href="bio" className="bio5">Bio</a>
+
           </div>
           <div className="press-link">
             <div className="press4">
-              <a className="press5">Press</a>
+              <a href="press" className="press5">Press</a>
             </div>
           </div>
         </nav>

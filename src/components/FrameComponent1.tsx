@@ -35,14 +35,11 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
         <div className="content-right">
           <div className="map-container">
             <div className="wrapper-interactive-map">
-              <img
-                className="interactive-map-icon"
-                loading="lazy"
-                alt=""
-                src="/interactive-map@2x.png"
-              />
+              <iframe width="1000" height="350"
+                      src="https://www.openstreetmap.org/export/embed.html?bbox=4.46422576904297%2C52.25428846751517%2C5.037574768066407%2C52.44178076592579&amp;layer=mapnik"
+                      ></iframe>
             </div>
-            <textarea className="image-91" rows={15} cols={20} />
+            <textarea className="image-91" rows={15} cols={20}/>
           </div>
           <div className="legend">
             <b className="legend1">Legend:</b>

@@ -10,6 +10,12 @@ import DesktopPress1920px from "./pages/DesktopPress1920px";
 import DesktopBio1920px from "./pages/DesktopBio1920px";
 import DesktopMap1920px from "./pages/DesktopMap1920px";
 
+import { ConfigProvider } from 'antd';
+
+<ConfigProvider theme={{ hashed: false }}>
+  <App />
+</ConfigProvider>
+
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -61,9 +67,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<DesktopHomePage1920px />} />
-      <Route path="/desktop-press-1920px" element={<DesktopPress1920px />} />
-      <Route path="/desktop-bio-1920px" element={<DesktopBio1920px />} />
-      <Route path="/desktop-map-1920px" element={<DesktopMap1920px />} />
+      <Route path="/press" element={<DesktopPress1920px />} />
+      <Route path="/bio" element={<DesktopBio1920px />} />
+      <Route path="/map" element={<DesktopMap1920px />} />
     </Routes>
   );
 }

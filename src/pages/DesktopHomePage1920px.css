@@ -5,19 +5,18 @@
   justify-content: space-between;
   position: relative;
 }
-.grid,
-.grid-workprojects,
-.project-item {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
 .grid-workprojects {
   width: 1366px;
   justify-content: flex-start;
   padding: 100px;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  margin: auto;
 }
 .grid {
   align-self: stretch;
