@@ -26,7 +26,9 @@ const GridItems: FunctionComponent<OnItsWayType> = ({
 
     useEffect(() => {
         if(ref.current != null) {
+            // @ts-ignore
             setHeight(ref.current.clientHeight)
+            // @ts-ignore
             console.log(ref.current.clientHeight)
         }
     })
