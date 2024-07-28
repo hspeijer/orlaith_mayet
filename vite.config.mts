@@ -7,5 +7,5 @@ export default defineConfig({
     outDir: "build",
   },
   plugins: [react()],
-  base: "/oralith_mayet/"
+  base: "/orlaith_mayet/"
 });
