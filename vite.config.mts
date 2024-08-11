@@ -7,5 +7,4 @@ export default defineConfig({
     outDir: "build",
   },
   plugins: [react()],
-  base: "/orlaith_mayet/"
 });

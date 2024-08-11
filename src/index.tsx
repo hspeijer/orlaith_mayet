@@ -12,8 +12,8 @@ const root = createRoot(container!);
 root.render(
   <BrowserRouter>
       <ConfigProvider theme={{ hashed: false }}>
-        `<App />
-      </ConfigProvider>c
+        <App />
+      </ConfigProvider>
   </BrowserRouter>
 );
 
