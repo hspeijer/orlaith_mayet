@@ -1,5 +1,4 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import "./Header.css";
 
 export type HeaderType = {
   className?: string;

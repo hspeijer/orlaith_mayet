@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import "./BackGroundIcon.css";
 
 export type BackGroundIconType = {
   className?: string;

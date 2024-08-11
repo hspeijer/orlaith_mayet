@@ -1,6 +1,6 @@
+'use client'
 import React, {FunctionComponent, useMemo, type CSSProperties, useState, useRef, useEffect} from "react";
 import {Carousel, Drawer} from "antd"
-import "./GridItem.css";
 
 export type OnItsWayType = {
   className?: string;
@@ -45,6 +45,8 @@ const GridItems: FunctionComponent<OnItsWayType> = ({
       height: height + "px"
     }
 
+    /*
+    */
     return (
     <div className={`on-its-way ${className}`}>
       <div className="project-images" />
@@ -66,7 +68,7 @@ const GridItems: FunctionComponent<OnItsWayType> = ({
             height={"90%"}
         >
             <div className={"carousel-container"} id={"redbox"} ref={ref}>
-                <Carousel
+               <Carousel
                     arrows={true}
                 >
                     {images && images.map((image, index) => {
@@ -74,7 +76,7 @@ const GridItems: FunctionComponent<OnItsWayType> = ({
                     })}
                 </Carousel>
             </div>
-            <img className="closeButton" onClick={closeDrawer} src={"public/close.svg"}/>
+            <img className="closeButton" onClick={closeDrawer} src={"close.svg"}/>
             <div className="slides-title">{inputTitel}</div>
             <div className="slides-subtitle">{projectDescription}</div>
         </Drawer>

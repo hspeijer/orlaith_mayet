@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent.css";
 
 export type FrameComponentType = {
   className?: string;

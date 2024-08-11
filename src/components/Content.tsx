@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import "./Content.css";
 
 export type ContentType = {
   className?: string;

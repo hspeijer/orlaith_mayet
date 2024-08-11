@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import "./DesktopFooter.css";
 
 export type DesktopFooterType = {
   className?: string;

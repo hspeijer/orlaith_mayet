@@ -5,6 +5,13 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   build: {
     outDir: "build",
+    rollupOptions: {
+      input: {
+        bio: 'index.html',
+        map: 'index.html',
+        press: 'index.html',
+      }
+    }
   },
   plugins: [react()],
 });

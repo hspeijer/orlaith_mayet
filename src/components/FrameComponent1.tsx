@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent1.css";
 
 export type FrameComponent1Type = {
   className?: string;
@@ -15,7 +14,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
           <div className="projects-content">
             <div className="explore-button">
               <h1 className="waste-map">Waste Map</h1>
-            </div>
+            </div>s
             <div className="search-bar">
               <a className="search">search</a>
             </div>
